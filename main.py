@@ -57,3 +57,14 @@ def get_fibonacci_sequence():
 # refer exponential cost in the video https://www.youtube.com/watch?v=pqivnzmSbq4&feature=youtu.be
 list_fib = get_fibonacci_sequence()
 #print(list_fib)
+
+import bison
+b = bison.Bison("ishan is bison")
+c = bison.Bison("ishan is bison")
+print(b.name)
+print(c.name)
+print(b.name == c.name)
+print(b==c)
+
+#get memory hashvalue of the new object
+print(1)
